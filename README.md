@@ -55,13 +55,10 @@ $ git commit -m "Initial commit"
 
 ```sh
 $ git remote add origin git@github.com:kyuuki/sample-README.git
+$ git push -u origin master
 ```
 
 ## Deployment
-
-```sh
-$ git push -u origin master
-```
 
 ## Usage
 
