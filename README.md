@@ -6,14 +6,12 @@ GitHub 用 README のサンプル。
 [![Build status][shield-build]](#)
 [![MIT licensed][shield-license]](#)
 [![Rails][shield-rails]][rails]
-[![Kotlin][shield-kotlin]][rails]
-[![Flutter][shield-flutter]][rails]
 
 ## Table of Contents
 
 * [Technologies](#technologies)
 * [Demo](#demo)
-* [Getting started](#gettting-started)
+* [Getting started](#getting-started)
 * [Deployment](#deployment)
 * [Usage](#usage)
 * [References](#references)
@@ -22,6 +20,8 @@ GitHub 用 README のサンプル。
 ## Technologies
 
 * [Rails][rails] 6.0.x
+* [PostgreSQL][postgresql]
+* [Heroku][heroku]
 * [Kotlin][kotlin] 1.4.x
 * [Flutter][flutter] 2.0.x
 
@@ -65,13 +65,14 @@ $ git push -u origin master
 
 ## Usage
 
-* [基本的な書き方とフォーマットの構文 (日本語)](https://docs.github.com/ja/github/writing-on-github/basic-writing-and-formatting-syntax)
+* [基本的な書き方とフォーマットの構文 (日)](https://docs.github.com/ja/github/writing-on-github/basic-writing-and-formatting-syntax)
 
 ## References
 
-* https://yakst.com/ja/posts/3859
-* https://qiita.com/koeri3/items/f85a617dcb6efebb2cab
-* https://qiita.com/s-yoshiki/items/436bbe1f7160b610b05c
+* [読みやすいREADMEを書く](https://yakst.com/ja/posts/3859)
+* [素敵なREADMEの書き方](https://qiita.com/koeri3/items/f85a617dcb6efebb2cab)
+* [shields.ioを使って技術系アイコンを量産した](https://qiita.com/s-yoshiki/items/436bbe1f7160b610b05c)
+* [Awesome README](https://github.com/matiassingers/awesome-readme)
 
 ## License
 
@@ -81,11 +82,12 @@ Copyright &copy; 2021 [Fuji Programming Laboratory](https://fuji-labo.com/)
 
 
 [rails]: https://rubyonrails.org/
+[postgresql]: https://www.postgresql.org/
+[heroku]: https://www.heroku.com/home
+
 [kotlin]: https://kotlinlang.org/
 [flutter]: https://flutter.dev/
 
 [shield-build]: https://img.shields.io/badge/build-passing-brightgreen.svg
 [shield-license]: https://img.shields.io/badge/license-MIT-blue.svg
 [shield-rails]: https://img.shields.io/badge/-Rails-CC0000.svg?logo=ruby-on-rails&style=flat
-[shield-kotlin]: https://img.shields.io/badge/-Kotlin-0095D5.svg?logo=kotlin&style=flat
-[shield-flutter]: https://img.shields.io/badge/-Flutter-02569B.svg?logo=flutter&style=flat
