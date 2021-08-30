@@ -1,11 +1,11 @@
 README サンプル
 ===============
 
-GitHub 用 README のサンプル。
-
 [![Build status][shield-build]](#)
 [![MIT licensed][shield-license]](#)
 [![Rails][shield-rails]][rails]
+
+GitHub 用 README のサンプル。
 
 ## Table of Contents
 
